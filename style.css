@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(45deg, #e5f7fc, #61767c);
+}
+
+button:focus {
+    outline: none;
+}
+
+div#title {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+div#result {
+    font-size: 1.2em;
+    height: 250px;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#draw {
+    color: #d84949;
+    border: solid 2px #d84949;
+    transition: 0.2s;
+}
+
+#draw:hover {
+    background-color: #d84949;
+    color: #ffffff;
+    border: solid 2px #d84949;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+#remove {
+    color: #3769ba;
+    border: solid 2px #3769ba;
+    transition: 0.2s;
+}
+
+#remove:hover {
+    background-color: #3769ba;
+    color: #ffffff;
+    border: solid 2px #3769ba;
+    cursor: pointer;
+    transform: translateY(5px);
+
+}
+
+#possibilities, #listPoss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+textarea {
+    font-size: 1.1em;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: #919191;
+    background-color: #e5f7fc;
+}
+
+textarea:focus {
+    outline: none;
+}
